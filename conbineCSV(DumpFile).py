@@ -2,8 +2,6 @@ import os
 import csv
 import re
 
-os.system("python 2utf8withoutBOM.py")
-
 def conbine_csv(csv_file):
     vanilla_csv = csv_file + ".vanilla"
     
